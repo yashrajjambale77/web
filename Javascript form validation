@@ -1,0 +1,42 @@
+
+<html>
+<head>
+<title>Form Validation</title>
+
+<script>
+function checkForm()
+{
+    var email = document.getElementById("email").value;
+
+    if(email == "")
+    {
+        alert("Email field cannot be empty");
+        return false;
+    }
+
+    if(email.indexOf("@") == -1 || email.indexOf(".") == -1)
+    {
+        alert("Enter valid email");
+        return false;
+    }
+
+    alert("Form submitted successfully");
+}
+</script>
+
+</head>
+
+<body>
+
+<h3>Email Validation Form</h3>
+
+<form onsubmit="return checkForm()">
+Email: <input type="text" id="email"><br><br>
+<input type="submit" value="Submit">
+</form>
+
+</body>
+</html>
+
+Output:-
+ 
