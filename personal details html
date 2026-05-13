@@ -1,0 +1,34 @@
+
+<!DOCTYPE html> 
+<html> 
+<head> 
+<title>Personal Details</title> 
+</head> 
+<body> 
+<h2><u>Personal Details</u></h2> 
+<b>Name:</b> Nirmla Yadav <br><br> 
+<b>Qualification:</b> <i>B.Sc. Computer Science</i> <br><br> 
+<b>College:</b> <u>ABC College</u> <br><br> 
+<b>Email:</b> nirmla@gmail.com <br><br> 
+<b>Hobbies:</b> <i>Reading, Music, Coding</i> <br><br> 
+<b>Mathematics Formula:</b> a<sup>2</sup> + b<sup>2</sup> <br><br> 
+<hr> 
+<p><i>This page is created using basic HTML text formatting tags.</i></p> 
+</body> 
+</html>
+
+
+Output:-
+Personal Details
+Name: Nirmla Yadav
+
+Qualification: B.Sc. Computer Science 
+
+College: ABC College 
+
+Email: nirmla@gmail.com 
+
+Hobbies: Reading, Music, Coding 
+
+Mathematics Formula: a2 + b2 
+
