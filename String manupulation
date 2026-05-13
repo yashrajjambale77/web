@@ -1,0 +1,16 @@
+<?php
+// Variable declaration
+$inputString = "Welcome to PHP";
+echo "<h3>String Manipulation Results:</h3>";
+
+// 1. Finding Length
+echo "Original String: " . $inputString . "<br>";
+echo "Length of String: " . strlen($inputString) . "<br>";
+// 2. Reversing String
+echo "Reversed String: " . strrev($inputString) . "<br>";
+// 3. Substring (Extracting "PHP")
+// Starts at index 11, takes 3 characters
+echo "Extracted Substring: " . substr($inputString, 11, 3) . "<br>";
+// 4. Word Count
+echo "Word Count: " . str_word_count($inputString) . "<br>";
+?>
