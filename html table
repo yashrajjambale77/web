@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>My time table</h3>
+    <table border="1" cellpadding="10" cellspacking="10">
+      <tr>
+        <th rowspan="2" bgcolor="pink">
+            Day
+        </th>
+        <th colspan="2">
+            session
+        </th>
+      </tr>
+      <tr>
+        <th>shedule</th>
+        <th>course name</th>
+      </tr>
+      <tr>
+      <td>sunday</td>
+      <td>16:00 17:00</td>
+      <td>web technology</td>
+       </tr>
+       <tr>
+        <td>monday</td>
+        <td>17:00 17:50</td>
+        <td>network management</td>
+       </tr>
+       <tr>
+        <td>sunday</td>
+        <td>18:00 18:50</td>
+        <td>project management</td>
+       </tr>
+
+    </table>
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+
+  <h2>2:</h2>
+  <h3>Salary table</h3>
+   <table border="2" cellpadding="10" cellspacking="10">
+        <tr>
+            <th bgcolor="yellow">
+                Name
+            </th>
+            <th bgcolor="sky blue">
+                Age
+            </th>
+            <th>
+                Salary
+            </th>
+        </tr>
+        <tr>
+            <td bgcolor="yellow">
+                John
+            </td>
+            <td bgcolor="sky blue">
+                30
+            </td>
+            <td>
+                2000$
+            </td>
+        </tr>
+        <tr>
+            <td bgcolor="yellow">
+                Jeany
+            </td>
+            <td bgcolor="sky blue">
+                34
+            </td>
+            <td>
+                2400$
+            </td>
+        </tr>
+
+    </table>
+
+</body>
+</html>
